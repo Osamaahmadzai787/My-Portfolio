@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./assets/logo 3.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Front-end Developer</p>
+                <h1>Hi, I'm<span> Osama Khan</span> <br>From Afghanistan</h1>
+            </div>
+        </div>
+    </div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./assets/user.jpg" alt="" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi! I'm Osama Ahmadzai  a passionate Frrontend Developer dedicated to creating engaging and <br>user-friendly web experiences.i specialize in HTML,CSS,JavaScript and modern frameworks to build fast,responsive,and visually appealing websites. <br>My goal is to craft innovative solutions that enhance the digital experience for Users. if you'd like to check out my work or collaborate,fell free to reach out!</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>HTML</span><br> Building Website Structure. <br>Using semantic elements. <br>Forms and inputs.</li>
+                        <li><span>CSS</span><br>Styling pages.<br> Responsive design basic.<br>Media-query.</li>
+                        <li><span>JavaScript</span><br>Adding interactivity.<br>Dom manipulation.<br>Basic functions and events.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Static Website Development</h2>
+                <p>I design and build static websites using HTML,CSS, and JavaScript. These Websites are fast,responsive, and perfect for showcasing personal Portfolios,Business information,or landing Pages. </p>
+            </div>
+            <div>
+                <h2>Responsive Website Design</h2>
+                <p>I create responsive websites that look great on all devices including mobiles, tablets, and desktops. Using modern HTML, CSS, and media-queries i ensure that every user has a smooth and consistent experience regardless of screen size. </p>
+            </div>
+            <div>
+                <h2>Landing Page Creation</h2>
+                <p>I design attractive and efective landing pages that help businesses capture leads , promote services , or sell products. I focus on clean design, strong calls to action and fast performance to maximize user</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="./assets/login.png" width="400" height="500" >
+            <div class="layer">
+                <h3>Login page</h3>
+                <p>A simple login form designed using HTML, CSS. it it includes usernam and password fields with a sentered layout for a clean user experience.</p>
+            </div>
+        </div>
+        <div class="work">
+            <img src="./assets/BMI.png" width="400" height="500" >
+            <div class="layer">
+                <h3>BMI Calculator </h3>
+                <p>This BMI Calculator lets users input their height and weight to calculate their body Mass index. it is built using HTML, CSS, and JavaScript with instant Results. </p>
+            </div>
+        </div>
+        <div class="work">
+            <img src="./assets/weather.png" width="400" height="500">
+            <div class="layer">
+                <h3>Weathe App</h3>
+                <p>A weather applicationn that fetches real-time weather data using API. The app displays temperature , condition, and city name dynamically. created with HTML, CSS and JavaScipt.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>www.osamaahmadzai14@gmail.com</p>
+                <p id="num">0731233761</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Osamaahmadzai787"><img src="./assets/github.png" width="25" alt="facebook"></a> 
+                    <a href="tel:0731233761"><img src="./assets/whatsapp.png" width="25" alt="whatsapp"></a> 
+                </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> @ Osama khan. Made by Osama Ahmadzai.</p>
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
